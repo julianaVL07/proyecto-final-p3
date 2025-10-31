@@ -9,7 +9,4 @@ defmodule Equipo do
     %Equipo{nombre: nombre, codigo: codigo, categoria: categoria, miembros: miembros, proyecto: proyecto}
   end
 
-  def agregar_miembro(equipo, participante) do
-    %{equipo | miembros: equipo.miembros ++ [participante]}
-  end
 end

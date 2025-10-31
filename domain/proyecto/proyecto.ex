@@ -9,7 +9,4 @@ defmodule Proyecto do
     %Proyecto{nombre: nombre, codigo: codigo, descripcion: descripcion, categoria: categoria, avances: avances, retroalimentacion: retroalimentacion}
   end
 
-  def agregar_avance(proyecto, avance) do
-    %{proyecto | avances: proyecto.avances ++ [avance]}
-  end
 end
